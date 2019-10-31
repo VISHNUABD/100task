@@ -1,0 +1,16 @@
+<body>
+        Enter series:<input type="text" id="h1">
+        <button onClick="fun()">enter</button>
+        <div id="sum" style="color: blue;"></div>
+    </body>
+    <script>
+        function fun(){
+        var n=document.getElementById("h1").value;
+        count=0;
+        while(count<=n)
+            {
+                document.getElementById("sum").innerHTML+="<h1>"+" "+n;
+                n--;
+            }
+        }
+    </script>
